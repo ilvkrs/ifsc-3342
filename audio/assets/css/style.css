@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#audio-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.controls {
+  background: #eee;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#play-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+#progress {
+  flex: 1;
+  height: 5px;
+  background: #ccc;
+  cursor: pointer;
+  position: relative;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #2196f3;
+}
